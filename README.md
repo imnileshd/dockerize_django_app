@@ -61,7 +61,7 @@ A Dockerfile is a text file that contains instructions on how the Docker image w
 
 In the root project directory, create a file with the name `Dockerfile` with no file extension and add the code below.
 
-```sh
+```docker
 # pull the official base image
 FROM python:3.8.3-alpine
 
@@ -101,6 +101,8 @@ CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 `EXPOSE 8000` exposes port 8000 for access from other applications.
 
 `CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]` sets the executable commands in the container.
+
+> **_Note:_** Create `.dockerignore` file in the root project directory to reduce the image size by excluding files and folders that aren't needed such as `.git`, `.vscode`, and `__pycache__`.
 
 ## Building the Docker image
 
