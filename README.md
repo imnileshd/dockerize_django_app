@@ -16,7 +16,7 @@ Before you begin this tutorial, ensure the following is installed to your system
 
 Let's jump directly to the application that we'll dockerize. We will be creating a Docker image for the django todo app that we have already created.
 
-1. Go to the [django_todo_app](..) repository.
+1. Go to the [django_todo_app](https://github.com/imnileshd/django_todo_app) repository.
 
 2. Fork/Clone
 
@@ -175,6 +175,6 @@ In this article, we walked through how to containerize a Django web application.
 
 You can refer to the official [Docker documentation](https://docs.docker.com/get-started/#docker-concepts). It explains in depth every thing about Docker you need to know.
 
-You can find the code in the [dockerize_django_app](..) repo.
+You can find the code in the [dockerize_django_app](https://github.com/imnileshd/dockerize_django_app) repo.
 
 Thanks for reading!
