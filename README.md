@@ -63,6 +63,11 @@ In the root project directory, create a file with the name `Dockerfile` with no 
 
 ```docker
 # pull the official base image
+
+# for windows containers
+# FROM python:3.6.3-windowsservercore-ltsc2016
+
+# for linux containers
 FROM python:3.8.3-alpine
 
 # set environment variables
