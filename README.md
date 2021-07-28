@@ -130,7 +130,7 @@ django_todo_app   latest         7fhgyvbjg1b9   1 hours ago     124MB
 To build and run a Docker container from the Docker image we created above, run the command below.
 
 ```sh
-docker run --name django_todo_app -d -p 8000:8000 django_todo:latest
+docker run --name django_todo_app -d -p 8000:8000 django_todo_app:latest
 ```
 
 `--name` sets the name of the Docker container.
